@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Leonida Power &amp; Light — Final Notice</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 1200px; overflow: hidden; background: #20222e; }
+  body { font-family: 'DejaVu Sans', 'Noto Sans', sans-serif; color: #20222e; }
+  .sheet { width: 1200px; height: 1200px; background: #f6f1e3; padding: 32px 64px 32px; position: relative; }
+  .frame { position: absolute; inset: 20px; border: 3px solid #20222e; pointer-events: none; }
+  .stripes { display: flex; height: 14px; }
+  .stripes div { flex: 1; }
+  .s-mag { background: #cc0066; }
+  .s-cyan { background: #00c2d6; }
+  .s-gold { background: #ffb000; }
+  header { text-align: center; margin-top: 18px; }
+  .company { font-size: 42px; font-weight: 800; letter-spacing: 6px; }
+  .notice { font-size: 80px; font-weight: 900; letter-spacing: 10px; color: #cc0066; line-height: 1.08; margin-top: 4px; }
+  .account { display: flex; justify-content: space-between; font-family: 'DejaVu Sans Mono', monospace; font-size: 32px; font-weight: 700; margin-top: 12px; }
+  .rule { border-top: 4px solid #20222e; margin-top: 18px; }
+  .rule2 { border-top: 2px solid #cc0066; margin-top: 6px; }
+  .bill { margin-top: 6px; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; padding: 6px 2px; border-bottom: 2px dotted #b9b09a; }
+  .label { font-size: 34px; font-weight: 600; color: #3a3d4d; white-space: nowrap; }
+  .value { font-family: 'DejaVu Sans Mono', monospace; font-size: 33px; font-weight: 700; text-align: right; }
+  .bar { height: 24px; border: 2px solid #20222e; margin: 10px 2px 2px; background: #fffdf5; }
+  .fill { width: 99%; height: 100%; background: #00c2d6; border-right: 6px solid #cc0066; }
+  .row.due { border-bottom: none; padding-top: 10px; }
+  .row.due .label { font-size: 40px; font-weight: 800; color: #20222e; }
+  .row.due .value { font-size: 46px; font-weight: 700; color: #cc0066; }
+  .stamp { margin: 16px auto 0; width: 740px; text-align: center; border: 6px solid #cc0066; outline: 2px solid #cc0066; outline-offset: 8px; border-radius: 14px; padding: 12px 20px 16px; transform: rotate(-4deg); background: rgba(204, 0, 102, 0.03); }
+  .ghost { width: 175px; height: 175px; }
+  .paid { font-size: 70px; font-weight: 900; color: #cc0066; letter-spacing: 5px; line-height: 1.05; margin-top: 2px; }
+  .by { font-size: 33px; font-weight: 700; letter-spacing: 2px; margin-top: 8px; }
+  footer { margin-top: 20px; text-align: center; font-size: 36px; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="frame"></div>
+  <div class="stripes"><div class="s-mag"></div><div class="s-cyan"></div><div class="s-gold"></div></div>
+  <header>
+    <div class="company">LEONIDA POWER &amp; LIGHT</div>
+    <div class="notice">FINAL NOTICE</div>
+    <div class="account"><span>Account No. LC-2013-0917</span><span>Customer copy</span></div>
+  </header>
+  <div class="rule"></div>
+  <div class="rule2"></div>
+  <section class="bill">
+    <div class="row"><span class="label">Service</span><span class="value">Electricity + fiber — 13 years of waiting</span></div>
+    <div class="row"><span class="label">Service area</span><span class="value">Vice City, Leonida</span></div>
+    <div class="row"><span class="label">Download</span><span class="value">GRAND THEFT AUTO VI · 214 GB</span></div>
+    <div class="row"><span class="label">Progress</span><span class="value">99%</span></div>
+    <div class="bar"><div class="fill"></div></div>
+    <div class="row"><span class="label">Days waited</span><span class="value">4,814</span></div>
+    <div class="row due"><span class="label">Amount due</span><span class="value">$69.99</span></div>
+  </section>
+  <div class="stamp">
+    <img class="ghost" src="../assets/mark-1024.png" alt="make.fun ghost">
+    <div class="paid">PAID IN FULL</div>
+    <div class="by">BY MY AI AGENT ON MAKE.FUN</div>
+  </div>
+  <footer>No disconnection. The wait ends in Leonida.</footer>
+</div>
+</body>
+</html>
