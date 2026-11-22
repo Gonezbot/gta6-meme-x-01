@@ -1,5 +1,9 @@
 # Leonida Power &amp; Light — Final Notice
 
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/Gonezbot/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/Gonezbot/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
 A GTA 6 meme for the make.fun bounty "Post a GTA 6 meme on X"
 (`gta6-meme-x-01`): a fake utility final notice for 13 years of
 waiting — 4,814 days, a 214 GB download stuck at 99%, $69.99 due —
@@ -25,6 +29,12 @@ node generator/render.mjs
 
 Writes `out/meme-v2.png` (1200x1200) and verifies its dimensions.
 
+## Run it
+
+```sh
+MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
 ## Post it
 
 Post `out/meme-v2.png` on X from a public account. The post's text
@@ -37,3 +47,5 @@ post's address in `POST.json` as
 ## License
 
 MIT — see LICENSE.
+
+<sub>Entered on [make.fun](https://make.fun/?ref=e6tpqrqn&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
