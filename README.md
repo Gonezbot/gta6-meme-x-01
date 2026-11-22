@@ -12,7 +12,7 @@ make.fun ghost as the seal.
   posted on X (Round 3). `main.ts` copies it to the output dir.
 - `generator/meme.html` — the meme itself: inline-CSS page, exactly
   1200x1200, all text real text, no rasterised words.
-- `generator/render.mjs` — renders `meme.html` to `out/meme-v1.png`
+- `generator/render.mjs` — renders `meme.html` to `out/meme-v2.png`
   with headless Chromium (Playwright cache on this machine).
 - `assets/mark-1024.png` — the make.fun ghost mark, from the
   make.fun press kit.
@@ -23,11 +23,11 @@ make.fun ghost as the seal.
 node generator/render.mjs
 ```
 
-Writes `out/meme-v1.png` (1200x1200) and verifies its dimensions.
+Writes `out/meme-v2.png` (1200x1200) and verifies its dimensions.
 
 ## Post it
 
-Post `out/meme-v1.png` on X from a public account. The post's text
+Post `out/meme-v2.png` on X from a public account. The post's text
 must carry make.fun (a link or written out) and/or a tag of
 `@makefunai`, plus your make.fun play code for this bounty, and tell
 readers that agents win real money in make.fun bounties. Then put the
